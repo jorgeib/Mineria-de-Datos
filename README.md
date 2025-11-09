@@ -1,37 +1,22 @@
-# JupyterLite Demo
+## Primitivas de Ciencia de Datos - Notebook Completo
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
+### Descripción
+Notebook educativo completo que demuestra el flujo end-to-end de la Ciencia de Datos:
+- **Recolección de datos** (CSV)
+- **Limpieza de datos** (manejo de valores nulos)
+- **Análisis exploratorio** (6 gráficos + estadísticas)
+- **Preparación de datos** (train-test split)
+- **Modelado** (RandomForestClassifier)
+- **Validación cruzada** (5 folds)
+- **5 Conclusiones clave** para especialistas en Analítica
 
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
+### Archivos
+- `content/PrimitivasDS.ipynb` - Notebook principal (96.67% accuracy)
+- `content/data/Iris.csv` - Dataset Iris (150 muestras, 3 especies)
 
-## ✨ Try it in your browser ✨
+### Visualizar
+- [En GitHub](https://github.com/jorgeib/Mineria-de-Datos/blob/main/content/PrimitivasDS.ipynb)
+- [En NBViewer](https://nbviewer.jupyter.org/github/jorgeib/Mineria-de-Datos/blob/main/content/PrimitivasDS.ipynb)
 
-➡️ **https://jupyterlite.github.io/demo**
-
-![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
-
-## Requirements
-
-JupyterLite is being tested against modern web browsers:
-
-- Firefox 90+
-- Chromium 89+
-
-## Deploy your JupyterLite website on GitHub Pages
-
-Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
-
-## Further Information and Updates
-
-For more info, keep an eye on the JupyterLite documentation:
-
-- How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
-- Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
-
-This template provides the Pyodide kernel (`jupyterlite-pyodide-kernel`), the JavaScript kernel (`jupyterlite-javascript-kernel`), and the p5 kernel (`jupyterlite-p5-kernel`), along with other
-optional utilities and extensions to make the JupyterLite experience more enjoyable. See the
-[`requirements.txt` file](requirements.txt) for a list of all the dependencies provided.
-
-For a template based on the Xeus kernel, see the [`jupyterlite/xeus-python-demo` repository](https://github.com/jupyterlite/xeus-python-demo)
-
-
+### Ejecutar en Binder
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jorgeib/Mineria-de-Datos/main?filepath=content%2FPrimitivasDS.ipynb)
