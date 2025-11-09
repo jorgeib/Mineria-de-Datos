@@ -20,3 +20,9 @@ Notebook educativo completo que demuestra el flujo end-to-end de la Ciencia de D
 
 ### Ejecutar en Binder
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jorgeib/Mineria-de-Datos/main?filepath=content%2FPrimitivasDS.ipynb)
+
+### Ejecutar en JupyterLite (GitHub Pages)
+
+- **Abrir JupyterLite**: [Ir a JupyterLite](https://jorgeib.github.io/Mineria-de-Datos/)
+- **Notebook**: El archivo `PrimitivasDS.ipynb` estará disponible en `/content/` para cargar y ejecutar
+- **Dataset**: El archivo `Iris.csv` estará en `/content/data/` listo para usar
